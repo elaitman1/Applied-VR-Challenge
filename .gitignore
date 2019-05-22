@@ -1,0 +1,6 @@
+node_modules
+*.rdb
+assets/dist
+deploy-src
+build
+tempDist
