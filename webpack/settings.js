@@ -1,5 +1,5 @@
 module.exports = {
-    "styleType": "css",
+    "styleType": "scss",
     "jsType": "jsx",
     "useBootstrapToggle": true,
     "bootstrap": {
