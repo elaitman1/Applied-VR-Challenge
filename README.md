@@ -26,16 +26,16 @@ This challenge consists of the following segments, each meant to demonstrate par
 # Challenge Instructions
 
 Your task is to build a simple web application that consists of a single page. The page and its features should meet the following specifications:
-- The page should feature a single form, evenly centered within the page both horizontally and vertically
-- The form inputs should be stacked vertically (as in the example image /docs/form-example.png)
-- The submit button should be below the last input
-- The page should be responsive / mobile-friendly (i.e. a user should be able to resize the browser from mobile dimensions to full desktop and have it display cleanly at every point between)
+The page should feature a single form, evenly centered within the page both horizontally and vertically
+The form inputs should be stacked vertically (as in the example image /docs/form-example.png)
+The submit button should be below the last input
+The page should be responsive / mobile-friendly (i.e. a user should be able to resize the browser from mobile dimensions to full desktop and have it display cleanly at every point between)
   Note: the styling need not change drastically between mobile and desktop versions. Just make it usable.
 - The form should be built using `redux-form` (already in `package.json`)
 - The form submission should be a POST to `https://api-dev.appliedvr.io/dev_challenge/mock_login`, with the parameters `email`, `password`, and `password_confirmation`.
 - The page should show validation errors as delivered from the backend. The backend will supply validation error messages with a `messages` array. These may be displayed together, rather than next to their respective inputs.
 - Show a loading indicator (spinner or other) while form submission is in progress. The indicator must block at least the submit button from being clicked.
-- Below the form, add a toggle button and container. 
+- Below the form, add a toggle button and container.
 - The container should contain the response from the API, and should by default be hidden. The toggle is always visible and toggles visibility of the response from the API.
 
 Additionally:
