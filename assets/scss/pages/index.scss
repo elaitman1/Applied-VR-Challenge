@@ -1,1 +1,39 @@
-/* Connected to route only */
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+// @media (min-width: 376px){
+//   form{
+//     text-align:center;
+//   }
+
+  input{
+    display:block;
+    text-align:center;
+  }
+  .submitButton{
+    display:block;
+    width:10.8em;
+  }
+  .uiButton{
+    margin-top:1em;
+    display:block;
+    width:10.8em;
+  }
+// }
+
+
+
+// @media (max-width: 375px){
+//
+// }

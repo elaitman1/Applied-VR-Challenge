@@ -3,16 +3,14 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import createStore from '../redux/store';
 import Application from './component';
-
-import '../../scss/pages/index';
-
+import GlobalComponent from '../components/global/GlobalComponent.jsx'
 const render = (Component, create) => {
 	const dest = document.getElementById('app');
 	const store = create(window.STORAGE || {});
 
 	const application = (
         <Provider store={store} key={Math.random()}>
-            <Component />
+            <GlobalComponent />
         </Provider>
 	);
 
